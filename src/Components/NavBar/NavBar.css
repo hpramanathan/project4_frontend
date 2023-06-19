@@ -1,0 +1,47 @@
+.navbar-nav {
+    display: flex; /* Display the list items in a flex container */
+    justify-content: center;
+    margin: 15px 0 -10px 0; /* Remove the default margin */
+    font-family: 'Bagel Fat One', cursive;
+    list-style: none; /* Remove default list styles */
+    padding: 10px 10px;
+    font-size: 1.31em;
+  }
+  
+  .nav-item {
+    margin-right: 40px; /* Add some spacing between the items */
+    width: 80px;
+    height: 36px;
+    text-align: center;
+    padding: 10px 30px;
+    background-color: orange;
+    border-radius: 60%;
+    border-color: hotpink;
+    border-style: solid;
+  }
+
+  .nav-item:hover {
+    background-color: rgba(255, 77, 0, 0.838);
+    border-radius: 40%;
+    width: 80px;
+    height: 36px;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 60%;
+    border-color: rgba(255, 255, 255, 0.646);
+    border-style: solid;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-link:hover {
+    color: yellow;
+  }
+  
+  .nav-link:active {
+    color: yellow;
+    font-weight: bold;
+  }

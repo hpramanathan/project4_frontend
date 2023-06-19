@@ -1,0 +1,9 @@
+.PageNotFound {
+    margin-top: 50px;
+}
+
+#PageNotFound {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px 500px;
+}
